@@ -12,6 +12,15 @@
 	line-height: 1.5em;
 	text-align: justify;
 }
+	
+	@media print {
+		img, nav {
+			display: none;			
+		}
+		div h1 {
+			color: #000000;
+		}
+}
 </style>
 </head>
 
@@ -19,9 +28,9 @@
 <nav>
     <ul class="nav nav-tabs">
         <li class="nav-item active"> <a class="nav-link" href="#">Home</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">Events</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="events.html">Events</a> </li>
         <li class="nav-item"> <a class="nav-link" href="places.html">Places</a> </li>
-        <li class="nav-item"> <a class="nav-link" href="#">About</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="awards.html">Awards</a> </li>
     </ul>
 </nav>
 <div class="container">

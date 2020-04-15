@@ -1,4 +1,10 @@
-p, div #hot_paragraph, div #cold_paragraph {
+body {
+  background-color: lightgray; }
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: white; } }
+p, div #hot_paragraph, div #cold_paragraph, div #low_paragraph {
   text-align: justify;
   text-indent: 50px; }
 
@@ -18,9 +24,10 @@ ul li {
 a:visited, a {
   color: white; }
 
-div #hot_title {
-  color: darkmagenta;
+div h3 {
   font-weight: bold; }
+div #hot_title {
+  color: darkmagenta; }
 div #hot_paragraph {
   color: darkmagenta; }
 div #cold_title {
@@ -28,3 +35,8 @@ div #cold_title {
   font-weight: bold; }
 div #cold_paragraph {
   color: #1380F3; }
+div #low_title {
+  color: #158604;
+  font-weight: bold; }
+div #low_paragraph {
+  color: #158604; }
