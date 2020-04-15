@@ -1,0 +1,51 @@
+$hot: darkmagenta;
+$cold: #1380F3;
+
+%message {
+	text-align: justify;
+	text-indent: 50px;		
+}
+.spacer {
+	margin-bottom: 30px;
+}
+h1 {
+	font: normal 4em Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: darkmagenta;
+}
+nav {
+	background-color: $hot;
+}
+ul li {
+	padding: 15px 0 15px 0;
+}
+a:visited, a {
+	color: white;	
+}
+
+p {
+	@extend %message;
+}
+
+
+div {
+	#hot_title {
+		color: $hot;
+		font-weight: bold;		
+	}
+	
+	#hot_paragraph {
+		color: $hot;
+		@extend %message;
+	}
+	
+	#cold_title {
+		color: $cold;
+		font-weight: bold;		
+	}
+	
+	#cold_paragraph {
+		color: $cold;
+		@extend %message;
+	}
+}
+

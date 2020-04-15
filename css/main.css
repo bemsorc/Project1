@@ -1,0 +1,30 @@
+p, div #hot_paragraph, div #cold_paragraph {
+  text-align: justify;
+  text-indent: 50px; }
+
+.spacer {
+  margin-bottom: 30px; }
+
+h1 {
+  font: normal 4em Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  color: darkmagenta; }
+
+nav {
+  background-color: darkmagenta; }
+
+ul li {
+  padding: 15px 0 15px 0; }
+
+a:visited, a {
+  color: white; }
+
+div #hot_title {
+  color: darkmagenta;
+  font-weight: bold; }
+div #hot_paragraph {
+  color: darkmagenta; }
+div #cold_title {
+  color: #1380F3;
+  font-weight: bold; }
+div #cold_paragraph {
+  color: #1380F3; }
